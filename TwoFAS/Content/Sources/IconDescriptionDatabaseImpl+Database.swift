@@ -17,25 +17,11 @@
 //  along with this program. If not, see <https://www.gnu.org/licenses/>
 //
 
-import Foundation
-#if os(iOS)
+import UIKit
 import Common
-#elseif os(watchOS)
-import CommonWatch
-#endif
 
-// swiftlint:disable all
 final class IconDescriptionDatabaseGenerated {
-    lazy var icons: [IconDescription] = {
-        IconDescriptionDatabaseGenerated0.icons +
-        IconDescriptionDatabaseGenerated1.icons +
-        IconDescriptionDatabaseGenerated2.icons +
-        IconDescriptionDatabaseGenerated3.icons +
-        IconDescriptionDatabaseGenerated4.icons +
-        IconDescriptionDatabaseGenerated5.icons +
-        IconDescriptionDatabaseGenerated6.icons +
-        IconDescriptionDatabaseGenerated7.icons +
-        IconDescriptionDatabaseGenerated8.icons +
-        IconDescriptionDatabaseGenerated9.icons
-    }()
+    var icons: [IconDescription] {
+        []
+    }
 }
