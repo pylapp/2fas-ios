@@ -1,3 +1,18 @@
+Disclaimer
+==========
+
+> [!CAUTION]
+> ( ˶°ㅁ°) !! **This is a fork of [twofas/2fas-ios](https://github.com/twofas/2fas-ios)**
+> 
+> The aim of this project is to submit evolutions.
+> This is not the official repository of the app.
+> You should not submit bug reports, issues or pull requests to this fork.
+> 
+> Last constributions from here:
+> - `Update to SwiftLint v0.57.0` ([#187](https://github.com/twofas/2fas-ios/pull/187))
+> - `Fix typos in french wordings` ([#184](https://github.com/twofas/2fas-ios/issues/184), [#185](https://github.com/twofas/2fas-ios/pull/185))
+> - `Add Voice Over gesture support to edit, copy and delete token from collection` ([#186](https://github.com/twofas/2fas-ios/pull/186))
+
 # Open Source 2FAS for iOS
 
 This is the official iOS app for the Open Source 2FAS project.
